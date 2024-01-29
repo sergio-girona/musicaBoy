@@ -1,0 +1,5 @@
+﻿{
+  "IP": "127.0.0.1",
+  "urlSQL": "http://localhost:5095/",
+  "urlMongo": "http://localhost:5180/"
+}

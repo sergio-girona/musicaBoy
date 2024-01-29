@@ -1,0 +1,285 @@
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.csproj.AssemblyReference.cache
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.AssemblyInfoInputs.cache
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.AssemblyInfo.cs
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.sourcelink.json
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\appsettings.json
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.exe
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.deps.json
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.runtimeconfig.json
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.pdb
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\DnsClient.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Snappier.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.ApiMongoMusica.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.build.ApiMongoMusica.props
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ApiMongoMusica.props
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ApiMongoMusica.props
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\scopedcss\bundle\ApiMongoMusica.styles.css
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.csproj.CopyComplete
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\refint\ApiMongoMusica.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.pdb
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.genruntimeconfig.cache
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ref\ApiMongoMusica.dll
+C:\Users\Sergio\Desktop\ReproductorMusica\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\appsettings.json
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.exe
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.deps.json
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.runtimeconfig.json
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.pdb
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\DnsClient.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Snappier.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.csproj.AssemblyReference.cache
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.AssemblyInfoInputs.cache
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.AssemblyInfo.cs
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.ApiMongoMusica.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.build.ApiMongoMusica.props
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ApiMongoMusica.props
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ApiMongoMusica.props
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\scopedcss\bundle\ApiMongoMusica.styles.css
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.csproj.CopyComplete
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\refint\ApiMongoMusica.dll
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.pdb
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.genruntimeconfig.cache
+C:\Users\Sergio\Desktop\A\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ref\ApiMongoMusica.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\appsettings.json
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.exe
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.deps.json
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.runtimeconfig.json
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.pdb
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\DnsClient.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Snappier.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.csproj.AssemblyReference.cache
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.AssemblyInfoInputs.cache
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.AssemblyInfo.cs
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.sourcelink.json
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.ApiMongoMusica.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.build.ApiMongoMusica.props
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ApiMongoMusica.props
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ApiMongoMusica.props
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\scopedcss\bundle\ApiMongoMusica.styles.css
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.csproj.CopyComplete
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\refint\ApiMongoMusica.dll
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.pdb
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.genruntimeconfig.cache
+C:\Users\Sergio\Desktop\A\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ref\ApiMongoMusica.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\appsettings.json
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.exe
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.deps.json
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.runtimeconfig.json
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.pdb
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\DnsClient.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Snappier.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.csproj.AssemblyReference.cache
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.AssemblyInfoInputs.cache
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.AssemblyInfo.cs
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.csproj.CoreCompileInputs.cache
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.sourcelink.json
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.ApiMongoMusica.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.build.ApiMongoMusica.props
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ApiMongoMusica.props
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ApiMongoMusica.props
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\scopedcss\bundle\ApiMongoMusica.styles.css
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.csproj.CopyComplete
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\refint\ApiMongoMusica.dll
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.pdb
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.genruntimeconfig.cache
+C:\Users\Moha\Desktop\reproductorBDAndroid\baseDades\ProjectMongo\ApiMongoMusica\obj\Debug\net8.0\ref\ApiMongoMusica.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\appsettings.json
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.exe
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.deps.json
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.runtimeconfig.json
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.pdb
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\DnsClient.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\Snappier.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.csproj.AssemblyReference.cache
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.AssemblyInfoInputs.cache
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.AssemblyInfo.cs
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.csproj.CoreCompileInputs.cache
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.ApiMongoMusica.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.build.ApiMongoMusica.props
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ApiMongoMusica.props
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ApiMongoMusica.props
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\scopedcss\bundle\ApiMongoMusica.styles.css
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.csproj.CopyComplete
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\refint\ApiMongoMusica.dll
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.pdb
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.genruntimeconfig.cache
+C:\Users\Moha\Desktop\Projecta Musica\ApiMongoMusica\obj\Debug\net8.0\ref\ApiMongoMusica.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\appsettings.json
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.exe
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.deps.json
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.runtimeconfig.json
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\ApiMongoMusica.pdb
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\DnsClient.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\Snappier.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.csproj.AssemblyReference.cache
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.AssemblyInfoInputs.cache
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.AssemblyInfo.cs
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.csproj.CoreCompileInputs.cache
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.ApiMongoMusica.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.build.ApiMongoMusica.props
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ApiMongoMusica.props
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ApiMongoMusica.props
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\scopedcss\bundle\ApiMongoMusica.styles.css
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.csproj.CopyComplete
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\refint\ApiMongoMusica.dll
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.pdb
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\ApiMongoMusica.genruntimeconfig.cache
+C:\Users\Moha\Desktop\Projecta Musica\API\ApiMongoMusica\obj\Debug\net8.0\ref\ApiMongoMusica.dll

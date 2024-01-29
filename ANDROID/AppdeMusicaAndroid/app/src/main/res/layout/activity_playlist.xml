@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Playlist">
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:id="@+id/playlistHeaderLayout"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="16dp"
+        tools:ignore="MissingConstraints">
+
+        <!-- Imagen -->
+        <ImageView
+            android:id="@+id/imageViewPlaylist"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/playllista"/>
+
+        <!-- Texto -->
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create a new Playlist"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPlaylists"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/playlistHeaderLayout"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"/>
+
+</RelativeLayout>
