@@ -27,30 +27,46 @@ namespace apiMusicInfo.Controllers.Services
         public async Task<IEnumerable<Song>?> GetSong(string uid)
         {
             Guid guidUid = Guid.Parse(uid);
-            var song = await _context.Songs
-            .Include(s => s.Extensions)
-            .Include(s => s.Plays)
-            .Include(s => s.Plays)
-            .Include(s => s.Albums)
-            .Where(s => s.UID == guidUid)
-            .ToListAsync();
+            var songs = await _context.Songs
+        .Include(s => s.Extensions)
+        .Include(s => s.Plays)
+        .Include(s => s.Albums)
+        // Add more Include statements for other related entities if needed
+        .Where(s => s.UID == guidUid)
+        .ToListAsync();
 
-            if (song == null)
+            if (songs == null)
             {
                 return null;
             }
 
-            return song;
+            return songs;
         }
 
         public async Task<ActionResult<Song>?> PostSong(Song song)
         {
+            if (song.Extensions != null)
+            {
+                return null;
+            }
             _context.Songs.Add(song);
             await _context.SaveChangesAsync();
 
-            return null;
+            return song;
         }
 
+        public async Task<ActionResult<Song>?> DeleteSong(Guid UID)
+        {
+            var song = await _context.Songs.FindAsync(UID);
+            if (song == null)
+            {
+                return null;
+            }
+            _context.Songs.Remove(song);
+            await _context.SaveChangesAsync();
+
+            return song;
+        }
         public async Task<Song?> UpdateSong(Guid UID, Song updatedSong)
         {
             if (UID != updatedSong.UID)
@@ -67,7 +83,7 @@ namespace apiMusicInfo.Controllers.Services
 
             UpdateSongProperties(existingSong, updatedSong);
 
-            try 
+            try
             {
                 await _context.SaveChangesAsync();
                 return existingSong;
@@ -83,19 +99,6 @@ namespace apiMusicInfo.Controllers.Services
             existingSong.Title = updatedSong.Title;
             existingSong.Language = updatedSong.Language;
             existingSong.Duration = updatedSong.Duration;
-        }
-        
-        public async Task<ActionResult<Song>?> DeleteSong(Guid UID)
-        {
-            var song = await _context.Songs.FindAsync(UID);
-            if (song == null)
-            {
-                return null;
-            }
-            _context.Songs.Remove(song);
-            await _context.SaveChangesAsync();
-
-            return song;
         }
     }
 }

@@ -80,7 +80,6 @@ namespace apiMusicInfo.Migrations
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Language = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Duration = table.Column<int>(type: "int", nullable: true),
-                    VersionOriginalId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     OriginalSongUID = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
                 },
                 constraints: table =>

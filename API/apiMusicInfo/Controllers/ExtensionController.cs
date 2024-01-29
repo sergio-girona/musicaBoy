@@ -16,7 +16,7 @@ namespace apiMusicInfo.Controllers
     public class ExtensionController : ControllerBase
     {
         private readonly DataContext _context;
-        private readonly ExtensionService _ExtensionService;
+         private readonly ExtensionService _ExtensionService;
 
         public ExtensionController(DataContext context)
         {
@@ -28,7 +28,7 @@ namespace apiMusicInfo.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Extension>>> GetExtensions()
         {
-            return await _ExtensionService.GetExtensions();
+                return await _ExtensionService.GetExtensions();
         }
 
         // GET: api/Extension/5

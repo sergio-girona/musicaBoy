@@ -1,7 +1,7 @@
 package com.example.appmusicandroid.Api
 
 import android.util.Log
-import com.google.gson.annotations.SerializedName
+import com.example.appmusicandroid.Api.TaulesDBSQL.SongDBSQL
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -9,33 +9,12 @@ import retrofit2.http.Body
 import retrofit2.http.POST
 import java.util.UUID
 
-data class SongDBSQL(
-    @SerializedName("UID")
-    val uid: String,
 
-    @SerializedName("data")
-    val date: String,
-
-    @SerializedName("NomSong")
-    val title: String,
-
-    @SerializedName("Genere")
-    val genre: String,
-
-    @SerializedName("songs")
-    var songs: MutableList<Song>?
-)
 
 interface SongApiServiceSQL {
     @POST("/api/Song")
-    fun postSong(@Body song: SongPost): Call<SongDBSQL>
+    fun postSong(@Body song: SongDBSQL): Call<SongDBSQL>
 }
-
-data class SongPost(
-    val title: String,
-    val uid: String
-)
-
 class ApiServiceSongSQL {
 
     private val retrofit: Retrofit = Retrofit.Builder()
@@ -45,37 +24,52 @@ class ApiServiceSongSQL {
 
     private val songApiServiceSQL: SongApiServiceSQL = retrofit.create(SongApiServiceSQL::class.java)
 
-    // Método para convertir SongDBSQL a Song
-    private fun fromSongDBToSong(songDB: SongDBSQL): Song {
-        return Song(
-            songDB.uid,
-            songDB.title,
-            ""
-        )
-    }
-
+    // Método para convertir SongDBSQL a Son
     private fun generateNewUID(): String {
         return UUID.randomUUID().toString()
     }
 
 
     fun postSongSQL(songName: String): String {
-        var responseJson: Song? = null
+        var responseJson: SongDBSQL? = null
 
         try {
-            var myUid = generateNewUID()
-            val songPost = SongPost(songName, myUid)
+            val myUid: String = generateNewUID().toString()
+            val songPost = SongDBSQL(
+                // Bind properties using apply
+                // These are the default values or values you want to set
+                uid,
+                title,
+                language,
+                duration,
+                versionOriginalId,
+                originalSong,
+                playObj,
+                songs,
+                plays,
+                extensions,
+                playLists,
+                albums,
+            )
             val response = songApiServiceSQL.postSong(songPost).execute()
 
             if (response.isSuccessful) {
                 val responseBody = response.body()
-                responseJson = fromSongDBToSong(responseBody ?: SongDBSQL(
+                val defaultSongDBSQL = SongDBSQL(
                     uid = myUid,
-                    date = "",
                     title = "No té titul",
-                    genre = "",
-                    songs = null
-                ))
+                    language = null,
+                    duration = null,
+                    versionOriginalId = null,
+                    originalSong = null,
+                    playObj = null,
+                    songs = emptyList(),
+                    plays = emptyList(),
+                    extensions = emptyList(),
+                    playLists = emptyList(),
+                    albums = emptyList()
+                )
+                responseJson = responseBody ?: defaultSongDBSQL
                 Log.d("ApiServiceSQL", "Respuesta exitosa: $responseBody")
                 return myUid
             } else {

@@ -14,7 +14,7 @@ namespace apiMusicInfo.Controllers.Services
     {
         private readonly DataContext _context;
 
-        public MusicianService(DataContext context) 
+        public MusicianService(DataContext context)
         {
             _context = context;
         }
@@ -142,5 +142,6 @@ namespace apiMusicInfo.Controllers.Services
         {
             return _context.Musician.Any(e => e.Name == name);
         }
+
     }
 }

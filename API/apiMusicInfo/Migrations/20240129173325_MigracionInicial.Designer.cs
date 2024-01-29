@@ -12,8 +12,8 @@ using apiMusicInfo.Data;
 namespace apiMusicInfo.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240122142554_Migracio")]
-    partial class Migracio
+    [Migration("20240129173325_MigracionInicial")]
+    partial class MigracionInicial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

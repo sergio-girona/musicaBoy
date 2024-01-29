@@ -7,6 +7,6 @@ namespace apiMusicInfo.Models
     public class Extension
     {    
         public string Name { get; set; }= null!;
-        public ICollection<Song>? Songs { get; set; }
+        public ICollection<Song>? Songs { get; set; } = new List<Song>();
     }
 }

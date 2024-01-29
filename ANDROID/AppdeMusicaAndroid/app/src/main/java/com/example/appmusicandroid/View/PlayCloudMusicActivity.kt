@@ -35,7 +35,7 @@ import java.io.InputStream
 class PlayCloudMusicActivity : AppCompatActivity() {
     companion object {
         const val EXTRA_UID = "extra_id"
-        const val API_BASE_URL = "http://192.168.18.167:5180/api/"
+        const val API_BASE_URL = "http://localhost:5180/api/"
         const val API_AUDIO_URL = "$API_BASE_URL" + "Audio"
         private const val MY_PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE = 123
     }
@@ -104,7 +104,7 @@ class PlayCloudMusicActivity : AppCompatActivity() {
     private fun getRetrofit(): Retrofit {
         return Retrofit
             .Builder()
-            .baseUrl("http://192.168.18.167:5095/")
+            .baseUrl("http://localhost:5095/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }

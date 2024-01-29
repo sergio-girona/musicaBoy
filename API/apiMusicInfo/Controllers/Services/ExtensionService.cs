@@ -10,7 +10,7 @@ using apiMusicInfo.Models;
 
 namespace apiMusicInfo.Controllers.Services
 {
-    public class ExtensionService 
+    public class ExtensionService
     {
         private readonly DataContext _context;
 
@@ -24,24 +24,16 @@ namespace apiMusicInfo.Controllers.Services
             return await _context.Extensions.ToListAsync();
         }
 
-        public async Task<ActionResult<IEnumerable<Extension>?>?> GetExtension(string name)
+        public async Task<ActionResult<IEnumerable<Extension>?>> GetExtension(string name)
         {
-            var extension = await _context.Extensions.Include(e => e.Songs)
-            .Where(e => e.Name == name).ToListAsync();
+            var extension = await _context.Extensions.Include(e => e.Songs).Where(e => e.Name == name).ToListAsync();
 
-            if (extension == null) {
+            if (extension == null)
+            {
                 return null;
             }
 
             return extension;
-        }
-
-        public async Task<ActionResult<Extension>?> PostExtension(Extension extension)
-        {
-            _context.Extensions.Add(extension);
-            await _context.SaveChangesAsync();
-
-            return null;
         }
 
         public async Task<IActionResult?> PutExtension(string name, Extension extension)
@@ -53,7 +45,7 @@ namespace apiMusicInfo.Controllers.Services
 
             _context.Entry(extension).State = EntityState.Modified;
 
-            try 
+            try
             {
                 await _context.SaveChangesAsync();
             }
@@ -61,6 +53,14 @@ namespace apiMusicInfo.Controllers.Services
             {
                 return null;
             }
+
+            return null;
+        }
+
+        public async Task<ActionResult<Extension>?> PostExtension(Extension extension)
+        {
+            _context.Extensions.Add(extension);
+            await _context.SaveChangesAsync();
 
             return null;
         }
@@ -141,5 +141,6 @@ namespace apiMusicInfo.Controllers.Services
                 }
             }
         }
+
     }
 }

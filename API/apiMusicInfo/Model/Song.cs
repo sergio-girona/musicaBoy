@@ -13,23 +13,11 @@ namespace apiMusicInfo.Models
         
         public string? Language { get; set; }
         public int? Duration { get; set; }
-
-        // Reflexive relationship
-        public Guid? VersionOriginalId { get; set; }
         public ICollection<Song> DerivedVersions { get; set; } = new List<Song>();
         public Song? OriginalSong { get; set; }
-
-        // Relationship with Play
         public ICollection<Play> Plays { get; set; } = new List<Play>();
-
-        // Relationship with Extension
-        public ICollection<Extension>? Extensions { get; set; }
-
-        // Relationship with Playlist
-        public ICollection<Playlist>? Playlists { get; set; }
-
-        // Self-referencing relationship with SongAlbum
+        public ICollection<Extension>? Extensions { get; set; } = new List<Extension>();
+        public ICollection<Playlist>? Playlists { get; set; } = new List<Playlist>();
         public ICollection<Album> Albums { get; set; } = new List<Album>();
     }
 }
-

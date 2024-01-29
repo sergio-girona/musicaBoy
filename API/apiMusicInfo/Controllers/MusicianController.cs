@@ -22,6 +22,7 @@ namespace apiMusicInfo.Controllers
         public MusicianController(DataContext context)
         {
             _context = context;
+
             _MusicianService = new MusicianService(context);
         }
 
@@ -92,8 +93,6 @@ namespace apiMusicInfo.Controllers
 
             return Ok(result.Message); // or any other appropriate success response
         }
-
-
         // POST: api/Musician
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]

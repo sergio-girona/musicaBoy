@@ -27,7 +27,6 @@ namespace apiMusicInfo.Controllers.Services
 
         public async Task<ActionResult<Band>?> GetBand(string name)
         {
-            //var band = await _context.Band.FindAsync(id);
             var band = await _context.Band.Include(b => b.Musicians).FirstOrDefaultAsync(b => b.Name == name);
 
             if (band == null)

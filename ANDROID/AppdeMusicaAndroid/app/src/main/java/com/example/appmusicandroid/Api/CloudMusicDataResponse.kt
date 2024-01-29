@@ -1,7 +1,6 @@
 package com.example.appmusicandroid.Api
 
 import com.google.gson.annotations.SerializedName
-import okhttp3.MultipartBody
 
 data class CloudMusicDataResponse(
     @SerializedName("\$values") val musicList: List<MusicItemResponse>

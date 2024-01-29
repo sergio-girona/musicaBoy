@@ -18,7 +18,6 @@ namespace apiMusicInfo.Controllers
         private readonly DataContext _context;
         private readonly PlaylistService _playlistService;
 
-
         public PlaylistController(DataContext context)
         {
             _context = context;
@@ -29,7 +28,7 @@ namespace apiMusicInfo.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Playlist>>> GetPlaylists()
         {
-            return await _context.Playlists.ToListAsync();
+            return await _playlistService.GetPlaylists();
         }
 
         // GET: api/Playlist/5
@@ -80,7 +79,7 @@ namespace apiMusicInfo.Controllers
             {
                 return NotFound();
             }
-            
+
             await _playlistService.DeletePlaylist(id);
 
             return NoContent();

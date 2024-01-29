@@ -29,14 +29,14 @@ namespace apiMusicInfo.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Instrument>>> GetInstruments()
         {
-            return await _InstrumentService.GetInstruments();
+                return await _InstrumentService.GetInstruments();
         }
 
         // GET: api/Instrument/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Instrument>> GetInstrument(string id)
         {
-            var instrument = await _context.Instruments.FindAsync(id);
+            var instrument = await _InstrumentService.GetInstrument(id);
 
             if (instrument == null)
             {
@@ -48,7 +48,7 @@ namespace apiMusicInfo.Controllers
 
         // PUT: api/Instrument/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{name}")]
+        [HttpPut("{id}")]
         public async Task<IActionResult> PutInstrument(string name, Instrument instrument)
         {
             if (name != instrument.Name)
@@ -58,7 +58,7 @@ namespace apiMusicInfo.Controllers
 
             var result = await _InstrumentService.PutInstrument(name, instrument);
 
-            return Ok(result);            
+            return Ok(result);
         }
 
         // POST: api/Instrument

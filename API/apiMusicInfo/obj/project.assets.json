@@ -8291,23 +8291,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Moha\\.nuget\\packages\\": {},
+    "C:\\Users\\Sergio\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Moha\\Desktop\\Projecta Musica\\API\\apiMusicInfo\\apiMusicInfo.csproj",
+      "projectUniqueName": "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\baseDades\\apiMusicInfo\\apiMusicInfo.csproj",
       "projectName": "apiMusicInfo",
-      "projectPath": "C:\\Users\\Moha\\Desktop\\Projecta Musica\\API\\apiMusicInfo\\apiMusicInfo.csproj",
-      "packagesPath": "C:\\Users\\Moha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Moha\\Desktop\\Projecta Musica\\API\\apiMusicInfo\\obj\\",
+      "projectPath": "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\baseDades\\apiMusicInfo\\apiMusicInfo.csproj",
+      "packagesPath": "C:\\Users\\Sergio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\baseDades\\apiMusicInfo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Moha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sergio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8316,6 +8316,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

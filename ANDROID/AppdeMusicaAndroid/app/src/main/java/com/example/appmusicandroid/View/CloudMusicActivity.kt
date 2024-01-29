@@ -129,7 +129,7 @@ class CloudMusicActivity : AppCompatActivity() {
     private fun getRetrofit(): Retrofit {
         return Retrofit
             .Builder()
-            .baseUrl("http://192.168.18.167:5095/")
+            .baseUrl("http://localhost:5095/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }

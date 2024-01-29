@@ -19,6 +19,7 @@ namespace apiMusicInfo.Controllers
         private readonly SongService _SongService;
         private readonly ExtensionService _ExtensionService;
 
+
         public SongController(DataContext context)
         {
             _context = context;
@@ -34,9 +35,9 @@ namespace apiMusicInfo.Controllers
 
         // GET: api/Song/5
         [HttpGet("{UID}")]
-        public async Task<IEnumerable<Song>?> GetSong(string UID)
+        public async Task<IEnumerable<Song>?> GetSong(Guid UID)
         {
-            var song = await _SongService.GetSong(UID);
+            var song = await _SongService.GetSong(UID.ToString());
 
             if (song == null)
             {
@@ -45,24 +46,34 @@ namespace apiMusicInfo.Controllers
 
             return song;
         }
-
+        // POST: api/Song
         [HttpPost]
-        public async Task<ActionResult<Song>> PostSong([FromBody] SongPostModel songPostModel)
+        public async Task<ActionResult<Song>> PostSong(Song song)
         {
-            var song = new Song
-            {
-                Title = songPostModel.Title,
-                UID = new Guid(songPostModel.UID) 
-            };
-
             await _SongService.PostSong(song);
 
-            string stringuid = song.UID.ToString();
+            string stringUID = song.UID.ToString();
 
-            return CreatedAtAction("GetSong", new { UID = stringuid }, song);
+            return CreatedAtAction("GetSong", new { UID = stringUID }, song);
         }
 
 
+        // DELETE: api/Song/5
+        [HttpDelete("{UID}")]
+        public async Task<IActionResult> DeleteSong(Guid UID)
+        {
+            var deletedSong = await _SongService.DeleteSong(UID);
+
+            if (deletedSong == null)
+            {
+                return NotFound();
+            }
+
+
+            return Ok(deletedSong);
+        }
+
+        // PUT: api/Song/5
         [HttpPut("{UID}")]
         public async Task<IActionResult> PutSong(Guid UID, Song song)
         {
@@ -72,11 +83,8 @@ namespace apiMusicInfo.Controllers
             }
 
             var updatedSong = await _SongService.UpdateSong(UID, song);
-            var extensionsRemoved = 
-                await _ExtensionService.UpdateExtensionsForSong(UID, song.Extensions);
-            
-            if (extensionsRemoved)
-            {
+            var extensionsRemoved = await _ExtensionService.UpdateExtensionsForSong(UID, song.Extensions);
+            if(extensionsRemoved){
                 return Ok(updatedSong);
             }
             if (updatedSong == null)
@@ -85,21 +93,6 @@ namespace apiMusicInfo.Controllers
             }
 
             return Ok(updatedSong);
-        }
-        
-        // DELETE: api/Song/5
-        [HttpDelete("{UID}")]
-        public async Task<IActionResult> DeleteSong(Guid UID)
-        {
-            var deletedSong = await _SongService.DeleteSong(UID);
-
-            if (deletedSong == null) 
-            {
-                return NotFound();
-            }
-
-            return Ok(deletedSong);
-            
         }
     }
 }
