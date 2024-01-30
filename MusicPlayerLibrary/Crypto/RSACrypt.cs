@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace MusicPlayerLibrary.Crypto
 {
+    /// <summary>
+    /// Class RSACrypt allows save and load public keys encrypt/decrypt aeskey
+    /// </summary>
     public class RSACrypt
     {
         /// <summary>
@@ -70,7 +73,12 @@ namespace MusicPlayerLibrary.Crypto
                 writer.Flush();
             }
         }
-
+        /// <summary>
+        /// Encrypt AESKey
+        /// </summary>
+        /// <param name="aesKey"></param>
+        /// <param name="publicKey"></param>
+        /// <returns></returns>
         public static byte[] EncryptAESKey(byte[] aesKey, RSAParameters publicKey)
         {
             using (RSA rsa = RSA.Create())
@@ -80,7 +88,12 @@ namespace MusicPlayerLibrary.Crypto
                 return encryptedAesKey;
             }
         }
-
+        /// <summary>
+        /// Decrypt AESKey
+        /// </summary>
+        /// <param name="encrypteKey"></param>
+        /// <param name="certificate"></param>
+        /// <returns></returns>
         public static byte[] DecryptAESKeyWithPrivateKey(byte[] encrypteKey, X509Certificate2 certificate)
         {
             using (RSA? rsa = certificate.GetRSAPrivateKey())

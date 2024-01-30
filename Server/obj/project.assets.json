@@ -4752,11 +4752,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\Server\\Server.csproj",
+      "projectUniqueName": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\Server\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\Server\\Server.csproj",
+      "projectPath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\Server\\Server.csproj",
       "packagesPath": "C:\\Users\\Sergio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\Server\\obj\\",
+      "outputPath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4778,11 +4778,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\MusicalyAdminApp\\MusicalyAdminApp.csproj": {
-              "projectPath": "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\MusicalyAdminApp\\MusicalyAdminApp.csproj"
+            "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\MusicalyAdminApp\\MusicalyAdminApp.csproj": {
+              "projectPath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\MusicalyAdminApp\\MusicalyAdminApp.csproj"
             },
-            "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj": {
-              "projectPath": "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj"
+            "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj": {
+              "projectPath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj"
             }
           }
         }

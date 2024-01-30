@@ -12,6 +12,9 @@ using System.Text;
 using System.Text.Json;
 using System.Threading;
 
+/// <summary>
+/// Server Program class
+/// </summary>
 class ServerProgram
 {
     static int PORT = 999;
@@ -27,6 +30,9 @@ class ServerProgram
     static String jsonRuta = "Config\\config_doc.json";
     static String IPServer="";
 
+    /// <summary>
+    /// Main funtion of server
+    /// </summary>
     public static void Main()
     {
         string jsonContent = File.ReadAllText(jsonRuta);
@@ -67,6 +73,10 @@ class ServerProgram
         }
     }
 
+    /// <summary>
+    /// Function used to generate a PDF file with the requested info
+    /// </summary>
+    /// <returns></returns>
     private static async Task GenerarPDFAsync()
     {
         try
@@ -136,7 +146,11 @@ class ServerProgram
             Console.WriteLine($"Error al generar el PDF: {ex.Message}");
         }
     }
-
+    /// <summary>
+    /// Allows server to send a message with a enct
+    /// </summary>
+    /// <param name="rutaArxiu">Path of the file</param>
+    /// <param name="aeskey">AESKey byte array</param>
     private static void Sender(string rutaArxiu, byte[] aeskey)
     {
         try
@@ -169,7 +183,9 @@ class ServerProgram
             Console.WriteLine($"Error al procesar cliente: {ex.Message}");
         }
     }
-
+    /// <summary>
+    /// Recived messages of guests
+    /// </summary>
     private static void Listener()
     {
         try

@@ -93,7 +93,7 @@ namespace MusicalyAdminApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MusicalyAdminApp;component/songinfo.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MusicalyAdminApp;V1.0.0.0;component/songinfo.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\SongInfo.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

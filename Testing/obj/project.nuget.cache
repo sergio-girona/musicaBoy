@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9Fv0JgeWXerf2/LEfsJen1h8UnSGfTO8/uKmw/4RGPAvTHkMR5FFsShU0sHcP0kzHFCAWlSUera8Q/rDZ9v8Cg==",
+  "dgSpecHash": "vNof5WILfRwdIAgiAy/165vn+FIwgpa2ZX5+tA4sDZxcpW8Fca/+JxjlwWRBAYGYUVgKmS2QB9tsPZKYof9tiQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\Testing\\Testing.csproj",
+  "projectFilePath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\Testing\\Testing.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sergio\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Sergio\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",

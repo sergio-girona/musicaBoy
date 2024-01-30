@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PAYrXevjatGo5kQUBR1Qv2UuhiXx/M104NiXCGKKqgi4pEL4PCuQgOGO/zc3bpy1k18G81x5DnN47MGIqr2TPA==",
+  "dgSpecHash": "YZH+gJpdjWdMj5RwXzpAApJWZvDvRuEu6pIEotG2oKQXiPTv3cWMje4mqbX+tEsJk5LtbqfI11bGoUbwboBI0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\Server\\Server.csproj",
+  "projectFilePath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\Server\\Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sergio\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Sergio\\.nuget\\packages\\itext\\8.0.2\\itext.8.0.2.nupkg.sha512",

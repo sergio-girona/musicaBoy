@@ -12,6 +12,9 @@ using System.Threading.Tasks;
 
 namespace ClientSocket
 {
+    /// <summary>
+    /// Class Program of Client
+    /// </summary>
     public class Program
     {
         static int PORT = 999;
@@ -24,6 +27,10 @@ namespace ClientSocket
         static String jsonRuta = "Config\\config_doc.json";
         static String IPServer = "";
 
+        /// <summary>
+        /// Main function of Client Program.cs
+        /// </summary>
+        /// <param name="args"></param>
         public static void Main(string[] args)
         {
             try
@@ -68,7 +75,11 @@ namespace ClientSocket
                 }
             }
         }
-
+        /// <summary>
+        /// Allows you to create a byte array using a NetworkStream.
+        /// </summary>
+        /// <param name="networkStream">Stream messege recived</param>
+        /// <returns>A byte array with the stream message </returns>
         static public byte[] ReceiveMessage(NetworkStream networkStream)
         {
             try
@@ -86,7 +97,12 @@ namespace ClientSocket
                 throw;
             }
         }
-
+        /// <summary>
+        /// Reciver allows you decrypt, and save using a recived pdf document
+        /// </summary>
+        /// <param name="rutaDestino"></param>
+        /// <param name="networkStream"></param>
+        /// <param name="claveAesEncriptada"></param>
         static public void Receiver(string rutaDestino, NetworkStream networkStream, byte[] claveAesEncriptada)
         {
             try
@@ -98,16 +114,16 @@ namespace ClientSocket
                 {
                     int bytesRead;
 
-                    // Recibir el archivo en bloques
+                    
                     while ((bytesRead = networkStream.Read(buffer, 0, bufferSize)) > 0)
                     {
                         fileStream.Write(buffer, 0, bytesRead);
                     }
                 }
 
-                // Desencriptar Archivo
+                
                 Encryption.DecryptPDF(PDFRebut, PDFDesencriptat, claveAesEncriptada, RutaCertificado, CertPass);
-                // Cerrar la conexión
+                
                 networkStream.Close();
             }
             catch (Exception ex)
@@ -116,6 +132,11 @@ namespace ClientSocket
             }
         }
 
+        /// <summary>
+        /// Allows you send a message to the server
+        /// </summary>
+        /// <param name="message"></param>
+        /// <returns></returns>
         static async Task SenderMessage(string message)
         {
             try

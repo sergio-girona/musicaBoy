@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tLAdtniH9y4JXt82mKwrw1ebaNBhHArzV4Qzmwz/vt2j4PFdi6y5FPlOTe4UKKIHESmnoRGgCO8+qs6vx+ds7w==",
+  "dgSpecHash": "JNBcaDMlu10PTYBrjNk6GAB2U3d6dyOmo0ZTYlBgH53nogBqI3dOuAvSETRCB/mJNQEEik62ML6TqZE5nBTU3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\MusicalyAdminApp\\MusicalyAdminApp.csproj",
+  "projectFilePath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\MusicalyAdminApp\\MusicalyAdminApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sergio\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Sergio\\.nuget\\packages\\itext\\8.0.2\\itext.8.0.2.nupkg.sha512",
@@ -86,12 +86,5 @@
     "C:\\Users\\Sergio\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Sergio\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\MusicalyAdminApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

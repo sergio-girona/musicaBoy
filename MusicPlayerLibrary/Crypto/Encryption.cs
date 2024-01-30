@@ -9,8 +9,20 @@ using System.Security.Cryptography;
 
 namespace MusicPlayerLibrary.Crypto
 {
+    /// <summary>
+    /// Class used to encrypt files
+    /// </summary>
     public class Encryption
     {
+        /// <summary>
+        /// Encrypt a PDF file and save
+        /// </summary>
+        /// <param name="rutaPDF">PDF file that have to be encripted path</param>
+        /// <param name="PDFEncriptado">Encripted PDF file path</param>
+        /// <param name="certRute">Certificate pxf path</param>
+        /// <param name="certPass">Password of Certificate</param>
+        /// <param name="PublicKeyRoute">PublicKey file path</param>
+        /// <returns>A byte array with encripted PDF</returns>
         public static byte[] EncryptPDF(string rutaPDF, string PDFEncriptado, string certRute, string certPass, string PublicKeyRoute)
         {
             try
@@ -57,7 +69,14 @@ namespace MusicPlayerLibrary.Crypto
                 throw;
             }
         }
-
+        /// <summary>
+        /// Functions used to decrypt a encrypted PDF
+        /// </summary>
+        /// <param name="rutaPDF">PDF file that have to be decrypted path</param>
+        /// <param name="PDFDesencriptado">Encripted pdf path</param>
+        /// <param name="claveAesEncriptada">AESKey encrypted</param>
+        /// <param name="certRuta">Certificate pfx path</param>
+        /// <param name="certPass">Certificate password</param>
         public static void DecryptPDF(string rutaPDF, string PDFDesencriptado, byte[] claveAesEncriptada, string certRuta, string certPass)
         {
             try
