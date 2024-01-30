@@ -3,7 +3,7 @@
 namespace MusicalyAdminApp
 {
     /// <summary>
-    /// Lógica de interacción para pdfView.xaml
+    /// Interaction logic for pdfView.xaml
     /// </summary>
     public partial class pdfView : Window
     {
@@ -12,8 +12,10 @@ namespace MusicalyAdminApp
             InitializeComponent();
             pdfWebViewer.Navigate(new Uri("about:blank"));
 
-            // Suponiendo que fullPathToPDF es una variable disponible en esta clase
+            // Load the PDF document.
             string fullPathToPDF = "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\TestdePdf.pdf";
+
+            // Display the PDF document in the control.
             pdfWebViewer.Navigate(new Uri(fullPathToPDF));
         }
     }

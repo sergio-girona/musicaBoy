@@ -78,3 +78,17 @@ C:\Users\Sergio\Desktop\B\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\
 C:\Users\Sergio\Desktop\B\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\refint\MusicPlayerLibrary.dll
 C:\Users\Sergio\Desktop\B\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\MusicPlayerLibrary.pdb
 C:\Users\Sergio\Desktop\B\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\ref\MusicPlayerLibrary.dll
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\MusicPlayerLibrary\bin\Debug\net8.0-windows\Config\config_doc.json
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\MusicPlayerLibrary\bin\Debug\net8.0-windows\MusicPlayerLibrary.deps.json
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\MusicPlayerLibrary\bin\Debug\net8.0-windows\MusicPlayerLibrary.dll
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\MusicPlayerLibrary\bin\Debug\net8.0-windows\MusicPlayerLibrary.pdb
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\MusicPlayerLibrary.csproj.AssemblyReference.cache
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\MusicPlayerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\MusicPlayerLibrary.AssemblyInfoInputs.cache
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\MusicPlayerLibrary.AssemblyInfo.cs
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\MusicPlayerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\MusicPlayerLibrary.sourcelink.json
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\MusicPlayerLibrary.dll
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\refint\MusicPlayerLibrary.dll
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\MusicPlayerLibrary.pdb
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\ref\MusicPlayerLibrary.dll

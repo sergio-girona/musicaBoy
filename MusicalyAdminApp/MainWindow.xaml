@@ -24,16 +24,40 @@
                 </Grid.ColumnDefinitions>
 
                 <!-- Contenido de la primera columna con borde redondeado -->
-                <Border Grid.Column="0" Margin="10"  BorderBrush="Black" BorderThickness="1" CornerRadius="15" Padding="10">
+                <Border Grid.Column="0" Margin="8,10,12,10"  BorderBrush="Black" BorderThickness="1" CornerRadius="15" Padding="10">
                     <StackPanel Orientation="Vertical">
-                        <StackPanel Height="30" Orientation="Horizontal">
-                            <TextBox x:Name="SrchBar" Text="Buscar..." VerticalAlignment="Center" Height="30" Margin="0,0,0,0" Width="278"/>
-                            <Image x:Name="btnSearch" Source="https://static.vecteezy.com/system/resources/previews/015/337/677/original/transparent-search-icon-free-png.png" Width="35" Height="35" VerticalAlignment="Center" HorizontalAlignment="Left" />
+                        <StackPanel Height="50" HorizontalAlignment="Center" Orientation="Horizontal">
+                            <TextBox x:Name="SrchBar" Text="Search Song" Width="265" Background="LightBlue" Height="40"  VerticalContentAlignment="Center" Padding="12,-2,0,0">
+                                <TextBox.Resources>
+                                    <Style TargetType="{x:Type Border}">
+                                        <Setter Property="CornerRadius" Value="20"/>
+                                    </Style>
+                                </TextBox.Resources>
+                                <TextBox.Foreground>
+                                    <SolidColorBrush Color="Black" Opacity="0.8"/>
+                                </TextBox.Foreground>
+                            </TextBox>
+
+                            <Image Width="35" Height="35" Margin="7,0,0,0">
+                                <Image.Style>
+                                    <Style TargetType="{x:Type Image}">
+                                        <Setter Property="Source" Value="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-and-shapes-4/177800/154-512.png"/>
+                                        <Style.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter Property="Source" Value="https://cdn0.iconfinder.com/data/icons/web-user-interface-7/130/26-512.png"/>
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Image.Style>
+                            </Image>
                         </StackPanel>
                         <ListBox x:Name="ListBoxCanciones" Height="420" Margin="10" HorizontalAlignment="Stretch" BorderBrush="AliceBlue">
                             <ListBox.ItemTemplate>
                                 <DataTemplate>
-                                    <TextBlock Text="{Binding Title}" />
+                                    <StackPanel Orientation="Horizontal" Margin="5">
+                                        <Image Source="https://static.vecteezy.com/system/resources/previews/022/488/807/original/3d-rendering-music-note-icon-isolated-on-transparent-background-design-element-for-song-melody-or-tune-png.png" Width="30" Height="30" VerticalAlignment="Center"/>
+                                        <TextBlock Margin="10,0,0,0" Text="{Binding Title}" VerticalAlignment="Center" />
+                                    </StackPanel>
                                 </DataTemplate>
                             </ListBox.ItemTemplate>
                         </ListBox>
@@ -57,7 +81,7 @@
                                 <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
 
-                            <Button x:Name="btnGenerate" Grid.Column="0" Margin="10" Content="Generar"/>
+                            <Button x:Name="btnGenerate" Grid.Column="0" Margin="10,10,10,0" Content="Generar" Click="btnGenerate_Click" Height="38" VerticalAlignment="Top"/>
                             <Button x:Name="btnSend" Grid.Column="1" Margin="10" Content="Enviar"/>
                             <Button x:Name="btnDownl" Grid.Column="2" Margin="10" Content="Descargar"/>
 
@@ -69,4 +93,3 @@
         </Grid>
     </Viewbox>
 </Window>
-

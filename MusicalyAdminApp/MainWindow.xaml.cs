@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using MusicalyAdminApp.API.APISQL;
@@ -7,57 +8,64 @@ using MusicalyAdminApp.API.APISQL.Taules;
 
 namespace MusicalyAdminApp
 {
+    /// <summary>
+    /// Main class representing the main window of the application.
+    /// </summary>
     public partial class MainWindow : Window
     {
         private readonly Apisql apiSql;
 
+        /// <summary>
+        /// Constructor of the MainWindow class. Initializes components and displays songs.
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();
             apiSql = new Apisql();
-            MostrarCanciones();
+            ShowSongs();
         }
+
         /// <summary>
-        /// method/task to show all the songs on the stack panel
+        /// Method to display all songs in the stack panel.
         /// </summary>
         /// <returns></returns>
-        private async Task MostrarCanciones()
+        private async Task ShowSongs()
         {
             try
             {
-                List<Song> canciones = await apiSql.GetSongs();
-                ListBoxCanciones.ItemsSource = canciones;
+                List<Song> songs = await apiSql.GetSongs();
+                ListBoxCanciones.ItemsSource = songs;
                 ListBoxCanciones.SelectionChanged += ListBoxCanciones_SelectionChanged;
                 Inf.SaveClicked += SongInfo_SaveClicked;
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error al obtener y mostrar las canciones: {ex.Message}");
+                MessageBox.Show($"Error getting and displaying songs: {ex.Message}");
             }
         }
 
         /// <summary>
-        /// method that changes the inf fields of a song with its actual data
+        /// Method that updates the information fields of a song with its current data.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void ListBoxCanciones_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Song cancionSeleccionada = ListBoxCanciones.SelectedItem as Song;
-            if (cancionSeleccionada != null)
+            Song selectedSong = ListBoxCanciones.SelectedItem as Song;
+            if (selectedSong != null)
             {
-                Inf.UIDInf.Text = $"{cancionSeleccionada.UID}";
-                Inf.NomInfTextBox.Text = $"{cancionSeleccionada.Title}";
-                Inf.IdiomaInfTextBox.Text = $"{cancionSeleccionada.Language}";
-                Inf.DuracioInfTextBox.Text = $"{cancionSeleccionada.Duration}";
+                Inf.UIDInf.Text = $"{selectedSong.UID}";
+                Inf.NomInfTextBox.Text = $"{selectedSong.Title}";
+                Inf.IdiomaInfTextBox.Text = $"{selectedSong.Language}";
+                Inf.DuracioInfTextBox.Text = $"{selectedSong.Duration}";
             }
         }
+
         /// <summary>
-        /// this method is used to save the modified data on the database 
+        /// This method is used to save the modified data in the database.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-
         private async void SongInfo_SaveClicked(object sender, EventArgs e)
         {
             int Durationint;
@@ -65,42 +73,47 @@ namespace MusicalyAdminApp
             try
             {
                 int.TryParse(Inf.DurationInf.Text, out Durationint);
-                Song cancionSeleccionada = ListBoxCanciones.SelectedItem as Song;
+                Song selectedSong = ListBoxCanciones.SelectedItem as Song;
 
-                if (cancionSeleccionada != null)
+                if (selectedSong != null)
                 {
-                    cancionSeleccionada.Title = Inf.NameInf.Text;
-                    cancionSeleccionada.Language = Inf.LangInf.Text;
-                    cancionSeleccionada.Duration = Durationint;
+                    selectedSong.Title = Inf.NameInf.Text;
+                    selectedSong.Language = Inf.LangInf.Text;
+                    selectedSong.Duration = Durationint;
                     using (var apiSql = new Apisql())
                     {
-                        Extension extensiosong = new Extension();
-                        extensiosong.Name = Inf.FormatInf.Text;
-                        cancionSeleccionada.Extensions = new List<Extension> { extensiosong };
-                        string uidstring = cancionSeleccionada.UID.ToString();
-                        string updateResponse = await apiSql.UpdateSong(uidstring, cancionSeleccionada);
+                        Extension extensionSong = new Extension();
+                        extensionSong.Name = Inf.FormatInf.Text;
+                        selectedSong.Extensions = new List<Extension> { extensionSong };
+                        string uidString = selectedSong.UID.ToString();
+                        string updateResponse = await apiSql.UpdateSong(uidString, selectedSong);
                         Console.WriteLine(updateResponse);
                     }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error al guardar la canción editada: {ex.Message}");
+                MessageBox.Show($"Error saving the edited song: {ex.Message}");
             }
         }
-
 
         private void Window_Closed(object sender, EventArgs e)
         {
             apiSql.Dispose();
         }
 
+
+        /// <summary>
+        /// Button to search a song.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void btnSearch_Click(object sender, RoutedEventArgs e)
         {
             string uid = SrchBar.Text;
             if (uid == null)
             {
-                MostrarCanciones();
+                ShowSongs();
             }
             else
             {
@@ -111,6 +124,11 @@ namespace MusicalyAdminApp
             }
         }
 
+        /// <summary>
+        /// Button to generate the pdf.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnGenerate_Click(object sender, RoutedEventArgs e)
         {
             pdfView pdfViewerWindow = new pdfView();

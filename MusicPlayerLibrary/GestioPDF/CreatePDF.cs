@@ -48,14 +48,14 @@ namespace MusicPlayerLibrary.GestioPDF
             {
                 dynamic jsonData = JsonConvert.DeserializeObject<ExpandoObject>(jsonList);
 
-                // Crear el documento PDF
+                // Create a PDF with the JSON data
                 using (PdfWriter writer = new PdfWriter(rutaPdf))
                 {
                     using (PdfDocument pdfDocument = new PdfDocument(writer))
                     {
                         using (Document document = new Document(pdfDocument))
                         {
-                            // Agregar cada propiedad del objeto dinámico al PDF de manera estructurada
+                            // Add each property of the JSON object to the PDF
                             foreach (var property in jsonData)
                             {
                                 string propertyName = property.Key;
@@ -63,12 +63,12 @@ namespace MusicPlayerLibrary.GestioPDF
 
                                 if (propertyValue is List<object>)
                                 {
-                                    // Si el valor es una lista, formatearla como una lista en el PDF
+                                    // If the property is a list, add each item as a list item
                                     document.Add(new Paragraph($"{propertyName}:"));
                                     var list = (List<object>)propertyValue;
                                     foreach (var item in list)
                                     {
-                                        // Mostrar cada propietat del objecta de la lista
+                                        // If the item is a list, add each property as a list item
                                         var listItem = (ExpandoObject)item;
                                         foreach (var listItemProperty in listItem)
                                         {
@@ -80,7 +80,7 @@ namespace MusicPlayerLibrary.GestioPDF
                                 }
                                 else
                                 {
-                                    // Si no es una lista, agregar como un párrafo normal
+                                    // If the property is not a list, add it as a paragraph
                                     document.Add(new Paragraph($"{propertyName}: {propertyValue}"));
                                 }
                             }

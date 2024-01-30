@@ -47,7 +47,7 @@ namespace ClientSocket
                 Console.WriteLine("Introdueix una lista per fer la consulta: ");
                 string response = Console.ReadLine();
 
-                // Crear certificat
+                // Create a new instance of RSACryptoServiceProvider.
                 Autosigned.GeneratePfx(RutaCertificado, CertPass);
 
                 RSACrypt.SavePublicKey(RutaCertificado, CertPass, ClauPublicaRuta);
@@ -55,11 +55,11 @@ namespace ClientSocket
 
                 byte[] clauBytes = File.ReadAllBytes(ClauPublicaRuta);
                 var clauBytesString = Convert.ToBase64String(clauBytes);
-                // Exportar la clau pública en una cadena
+                // Export the key information to an RSAParameters object.
                 byte[] publicKeyBytes = rsa.ExportRSAPublicKey();
                 String publicKeyString = Convert.ToBase64String(publicKeyBytes);
 
-                // Ara pots utilitzar publicKeyString amb una cadena amb la teva resposta
+                // Create a new instance of the RSAParameters structure.
                 response = response + "|" + clauBytesString;
                 SenderMessage(response);
 
@@ -141,7 +141,7 @@ namespace ClientSocket
         {
             try
             {
-                // Obtenir la referencia al fluxa de xarxa del client
+                // Get a client stream for reading and writing.
                 NetworkStream stream = ActualClient.GetStream();
                 var EncMessage = Encoding.UTF8.GetBytes(message);
                 StreamWriter writer = new StreamWriter(stream);

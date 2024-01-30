@@ -81,7 +81,7 @@ class ServerProgram
     {
         try
         {
-            // Obtener la lista de canciones de forma asíncrona
+            // Get the data from the API
             Apisql api = new Apisql();
             string jsonString = "";
 
@@ -93,7 +93,7 @@ class ServerProgram
                     Cancions = songs
                 };
 
-                // Serializar el objeto a una cadena JSON
+                // Serialize the object to a JSON string
                 jsonString = JsonSerializer.Serialize(data);
 
             }
@@ -138,7 +138,7 @@ class ServerProgram
                 };
             }
 
-            // Crear PDF
+            // Create the PDF
             CreatePDF.CrearPDFSignat(PDFSignat, jsonString, CertPass, RutaCertificado);
         }
         catch (Exception ex)
@@ -155,18 +155,18 @@ class ServerProgram
     {
         try
         {
-            // Obtenir la referencia del fluxa de xarxa del client
+            // Get the network stream of the client
             NetworkStream networkStream = ActualClient.GetStream();
             networkStream.Write(aeskey, 0, aeskey.Length);
 
-            // Llegir l'arxiu en blocs i enviarlo el client
+            // Read the file
             using (FileStream fileStream = File.OpenRead(rutaArxiu))
             {
                 int bufferSize = 1024;
                 byte[] buffer = new byte[bufferSize];
                 int bytesRead;
 
-                // Enviar l'arxiu del client en blocs
+                // Send the file
                 while ((bytesRead = fileStream.Read(buffer, 0, bufferSize)) > 0)
                 {
                     networkStream.Write(buffer, 0, bytesRead);
@@ -175,7 +175,7 @@ class ServerProgram
 
             Console.WriteLine($"Archivo {rutaArxiu} encriptado enviado exitosamente.");
 
-            // Tancar la conexió
+            // Close the network stream
             networkStream.Close();
         }
         catch (Exception ex)
@@ -190,10 +190,10 @@ class ServerProgram
     {
         try
         {
-            // Obtenir la referencia al fluxa de xarxa del cliente
+            // Get the network stream of the client
             NetworkStream networkStream = ActualClient.GetStream();
 
-            // Inicializar el tamany del buffer
+            // Start reading the message
             const int bufferSize = 1_024;
             byte[] buffer = new byte[bufferSize];
             int bytesRead = networkStream.Read(buffer, 0, bufferSize);

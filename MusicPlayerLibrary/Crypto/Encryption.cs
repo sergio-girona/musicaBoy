@@ -26,18 +26,18 @@ namespace MusicPlayerLibrary.Crypto
         public static byte[] EncryptPDF(string rutaPDF, string PDFEncriptado, string certRute, string certPass, string PublicKeyRoute)
         {
             try
-            {
-                // Obtenir la clau pública RSA des del certificat
+            { 
+                // Load the public key
                 var pk = RSACrypt.LoadPublicKey(PublicKeyRoute).ExportParameters(false);
 
-                // Encriptar la clau AES amb la clau pública RSA
+                // Encrype the PDF with AES
                 X509Certificate2 certificat = new X509Certificate2(certRute, certPass);
 
-                // Llegir el contingut del arxiu PDF
+                // Read the PDF
                 byte[] contingutPDF = File.ReadAllBytes(rutaPDF);
                 byte[] clauAesEncriptada;
 
-                // Encriptar el contingut del PDF amb AES
+                // Encrypt the PDF
                 using (FileStream fsInput = new FileStream(rutaPDF, FileMode.Open))
                 {
                     using (FileStream fsOutput = new FileStream(PDFEncriptado, FileMode.Create))
@@ -60,7 +60,7 @@ namespace MusicPlayerLibrary.Crypto
 
                 Console.WriteLine("Documento encriptado con éxito.");
 
-                // Devolver les clau generades
+                // Return the encrypted PDF
                 return clauAesEncriptada;
             }
             catch (Exception ex)
