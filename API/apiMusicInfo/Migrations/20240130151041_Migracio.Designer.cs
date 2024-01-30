@@ -12,8 +12,8 @@ using apiMusicInfo.Data;
 namespace apiMusicInfo.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240129173325_MigracionInicial")]
-    partial class MigracionInicial
+    [Migration("20240130151041_Migracio")]
+    partial class Migracio
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -212,9 +212,6 @@ namespace apiMusicInfo.Migrations
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid?>("VersionOriginalId")
-                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("UID");
 

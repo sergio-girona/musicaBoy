@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wf6KBZhtt/Hy1H+NMAwZLywy1/LVAy3+YKyCqqCnNWh4RwU0sKhpDqF31rF9C4nt1hRSoSMP/fXSFjjLXDZjbg==",
+  "dgSpecHash": "Aj7KwnwXJxAzmhhnJWibjXyjhjpJwjS9jQFFK6OrGhPYVx287lbRbUpbhsidaoQwYkc0B3SORP30jRvgZHw9Gg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\baseDades\\apiMusicInfo\\apiMusicInfo.csproj",
+  "projectFilePath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\API\\apiMusicInfo\\apiMusicInfo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sergio\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Sergio\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

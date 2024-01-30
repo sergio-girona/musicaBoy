@@ -210,9 +210,6 @@ namespace apiMusicInfo.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid?>("VersionOriginalId")
-                        .HasColumnType("uniqueidentifier");
-
                     b.HasKey("UID");
 
                     b.HasIndex("OriginalSongUID");

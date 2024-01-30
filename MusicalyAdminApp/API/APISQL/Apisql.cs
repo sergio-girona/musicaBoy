@@ -73,6 +73,17 @@ namespace MusicalyAdminApp.API.APISQL
                 throw; // Puedes lanzar una excepción personalizada si lo prefieres
             }
         }
+        public async Task PostSong()
+        {
+            try
+            {
+                string endpoint = "api/Song";
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
         /// <summary>
         /// method to retrieve all the information of all songs 
         /// </summary>

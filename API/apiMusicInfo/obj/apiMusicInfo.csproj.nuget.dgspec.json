@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\baseDades\\apiMusicInfo\\apiMusicInfo.csproj": {}
+    "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\API\\apiMusicInfo\\apiMusicInfo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\baseDades\\apiMusicInfo\\apiMusicInfo.csproj": {
+    "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\API\\apiMusicInfo\\apiMusicInfo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\baseDades\\apiMusicInfo\\apiMusicInfo.csproj",
+        "projectUniqueName": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\API\\apiMusicInfo\\apiMusicInfo.csproj",
         "projectName": "apiMusicInfo",
-        "projectPath": "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\baseDades\\apiMusicInfo\\apiMusicInfo.csproj",
+        "projectPath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\API\\apiMusicInfo\\apiMusicInfo.csproj",
         "packagesPath": "C:\\Users\\Sergio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sergio\\Desktop\\ReproductorMusica\\baseDades\\apiMusicInfo\\obj\\",
+        "outputPath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\API\\apiMusicInfo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

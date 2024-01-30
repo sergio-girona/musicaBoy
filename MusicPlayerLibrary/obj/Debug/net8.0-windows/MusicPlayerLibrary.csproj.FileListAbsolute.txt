@@ -64,3 +64,17 @@ C:\Users\Moha\Desktop\ReproductorMusica\MusicPlayerLibrary\obj\Debug\net8.0-wind
 C:\Users\Moha\Desktop\ReproductorMusica\MusicPlayerLibrary\obj\Debug\net8.0-windows\MusicPlayerLibrary.pdb
 C:\Users\Moha\Desktop\ReproductorMusica\MusicPlayerLibrary\obj\Debug\net8.0-windows\ref\MusicPlayerLibrary.dll
 C:\Users\Sergio\Desktop\ReproductorMusica\MusicPlayerLibrary\bin\Debug\net8.0-windows\Config\config_doc.json
+C:\Users\Sergio\Desktop\B\musicaBoy\MusicPlayerLibrary\bin\Debug\net8.0-windows\Config\config_doc.json
+C:\Users\Sergio\Desktop\B\musicaBoy\MusicPlayerLibrary\bin\Debug\net8.0-windows\MusicPlayerLibrary.deps.json
+C:\Users\Sergio\Desktop\B\musicaBoy\MusicPlayerLibrary\bin\Debug\net8.0-windows\MusicPlayerLibrary.dll
+C:\Users\Sergio\Desktop\B\musicaBoy\MusicPlayerLibrary\bin\Debug\net8.0-windows\MusicPlayerLibrary.pdb
+C:\Users\Sergio\Desktop\B\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\MusicPlayerLibrary.csproj.AssemblyReference.cache
+C:\Users\Sergio\Desktop\B\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\MusicPlayerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergio\Desktop\B\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\MusicPlayerLibrary.AssemblyInfoInputs.cache
+C:\Users\Sergio\Desktop\B\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\MusicPlayerLibrary.AssemblyInfo.cs
+C:\Users\Sergio\Desktop\B\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\MusicPlayerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\B\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\MusicPlayerLibrary.sourcelink.json
+C:\Users\Sergio\Desktop\B\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\MusicPlayerLibrary.dll
+C:\Users\Sergio\Desktop\B\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\refint\MusicPlayerLibrary.dll
+C:\Users\Sergio\Desktop\B\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\MusicPlayerLibrary.pdb
+C:\Users\Sergio\Desktop\B\musicaBoy\MusicPlayerLibrary\obj\Debug\net8.0-windows\ref\MusicPlayerLibrary.dll
