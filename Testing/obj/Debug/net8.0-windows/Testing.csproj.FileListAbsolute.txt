@@ -500,3 +500,8 @@ C:\Users\Sergio\Desktop\B\musicaBoy\Testing\obj\Debug\net8.0-windows\refint\Test
 C:\Users\Sergio\Desktop\B\musicaBoy\Testing\obj\Debug\net8.0-windows\Testing.pdb
 C:\Users\Sergio\Desktop\B\musicaBoy\Testing\obj\Debug\net8.0-windows\Testing.genruntimeconfig.cache
 C:\Users\Sergio\Desktop\B\musicaBoy\Testing\obj\Debug\net8.0-windows\ref\Testing.dll
+C:\Users\Sergio\Desktop\B\musicaBoy\Testing\bin\Debug\net8.0-windows\MusicalyAdminApp.deps.json
+C:\Users\Sergio\Desktop\B\musicaBoy\Testing\bin\Debug\net8.0-windows\MusicalyAdminApp.runtimeconfig.json
+C:\Users\Sergio\Desktop\B\musicaBoy\Testing\bin\Debug\net8.0-windows\MusicalyAdminApp.exe
+C:\Users\Sergio\Desktop\B\musicaBoy\Testing\bin\Debug\net8.0-windows\MusicalyAdminApp.dll
+C:\Users\Sergio\Desktop\B\musicaBoy\Testing\bin\Debug\net8.0-windows\MusicalyAdminApp.pdb

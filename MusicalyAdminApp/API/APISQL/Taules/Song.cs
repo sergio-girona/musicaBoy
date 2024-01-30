@@ -10,7 +10,7 @@ namespace MusicalyAdminApp.API.APISQL.Taules
     public class Song
     {
         [Key]
-        public Guid UID { get; set; }
+        public Guid? UID { get; set; }
         public string? Title { get; set; }
         public string? Language { get; set; }
         public int? Duration { get; set; }

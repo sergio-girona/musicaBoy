@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vNof5WILfRwdIAgiAy/165vn+FIwgpa2ZX5+tA4sDZxcpW8Fca/+JxjlwWRBAYGYUVgKmS2QB9tsPZKYof9tiQ==",
+  "dgSpecHash": "NY4qD6mkDnDEcOU+VEJiAObjh9pYDpjvKChOO8SKvj7euBjt9TZ0dDqd79NJQnic64W5X/m4LmTljQ51DB2RKA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\Testing\\Testing.csproj",
   "expectedPackageFiles": [
@@ -28,7 +28,7 @@
     "C:\\Users\\Sergio\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Sergio\\.nuget\\packages\\microsoft.win32.registry\\4.3.0\\microsoft.win32.registry.4.3.0.nupkg.sha512",
     "C:\\Users\\Sergio\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\Sergio\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Sergio\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Sergio\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
     "C:\\Users\\Sergio\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\Sergio\\.nuget\\packages\\nunit.analyzers\\3.6.1\\nunit.analyzers.3.6.1.nupkg.sha512",

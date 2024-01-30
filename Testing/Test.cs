@@ -1,4 +1,8 @@
 ﻿using MusicPlayerLibrary.Crypto;
+using MusicalyAdminApp.API;
+using MusicalyAdminApp.API.APISQL;
+using MusicalyAdminApp.API.APISQL.TaulesTest;
+using Newtonsoft.Json;
 
 namespace Testing
 {
@@ -27,6 +31,22 @@ namespace Testing
             byte[] rutaDecrypted = File.ReadAllBytes(PDFDesencriptatRuta);
 
             Assert.AreEqual(rutaDecrypted, rutaPDF);
+        }
+
+        [Test]
+        public async Task CreateAndVerifyAPIAsync()
+        {
+            Apisql apisql = new Apisql();
+            SongPost song = new SongPost
+            {
+                Title = "Hell is forever",
+                Language = "English",
+                Duration = 320,
+            };
+            string response;
+            response = await apisql.PostSong(song);
+            SongPost songObject = JsonConvert.DeserializeObject<SongPost>(response);
+            Assert.AreEqual(song.Title, songObject.Title);
         }
     }
 }

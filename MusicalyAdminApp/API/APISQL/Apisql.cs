@@ -7,6 +7,7 @@ using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using MusicalyAdminApp.API.APISQL.Taules;
+using MusicalyAdminApp.API.APISQL.TaulesTest;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
@@ -74,25 +75,48 @@ namespace MusicalyAdminApp.API.APISQL
             }
         }
         /// <summary>
+        /// This method performs an HTTP POST request, handles success or failure, and returns the content of the response as a string.
+        /// </summary>
+        /// <param name="endpoint"></param>
+        /// <param name="jsonContent"></param>
+        /// <returns></returns>
+        public async Task<string> PostAsync(string endpoint, string jsonContent)
+        {
+            try
+            {
+                HttpContent content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
+                HttpResponseMessage response = await client.PostAsync(endpoint, content);
+                response.EnsureSuccessStatusCode();
+                return await response.Content.ReadAsStringAsync();
+            }
+            catch (HttpRequestException ex)
+            {
+                Console.WriteLine($"Error en la solicitud POST: {ex.Message}");
+                throw; // You can throw a custom exception if you prefer
+            }
+        }
+        /// <summary>
         /// method used to post a song
         /// </summary>
         /// <param name="newSong"></param>
         /// <returns></returns>
-        public async Task PostSong(Song newSong)
+        public async Task<string> PostSong(SongPost newSong)
         {
             try
             {
                 string endpoint = "api/Song";
                 string jsonContent = JsonConvert.SerializeObject(newSong);
 
-                string response = await PutAsync(endpoint, jsonContent);
+                string response = await PostAsync(endpoint, jsonContent);
 
-                //Console.WriteLine($"POST Song Response: {response}");
+                Console.WriteLine($"POST Song Response: {response}");
+                return response;
             }
             catch (Exception ex)
             {
                 // Handle exceptions as needed
                 Console.WriteLine($"Error in PostSong: {ex.Message}");
+                return null;
             }
         }
 
