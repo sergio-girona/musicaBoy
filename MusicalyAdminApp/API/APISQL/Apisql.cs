@@ -73,17 +73,29 @@ namespace MusicalyAdminApp.API.APISQL
                 throw; // Puedes lanzar una excepción personalizada si lo prefieres
             }
         }
-        public async Task PostSong()
+        /// <summary>
+        /// method used to post a song
+        /// </summary>
+        /// <param name="newSong"></param>
+        /// <returns></returns>
+        public async Task PostSong(Song newSong)
         {
             try
             {
                 string endpoint = "api/Song";
+                string jsonContent = JsonConvert.SerializeObject(newSong);
+
+                string response = await PutAsync(endpoint, jsonContent);
+
+                //Console.WriteLine($"POST Song Response: {response}");
             }
             catch (Exception ex)
             {
-
+                // Handle exceptions as needed
+                Console.WriteLine($"Error in PostSong: {ex.Message}");
             }
         }
+
         /// <summary>
         /// method to retrieve all the information of all songs 
         /// </summary>
