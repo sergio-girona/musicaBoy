@@ -5624,23 +5624,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jasma\\.nuget\\packages\\": {},
+    "C:\\Users\\Sergio\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\Testing\\Testing.csproj",
+      "projectUniqueName": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\Testing\\Testing.csproj",
       "projectName": "Testing",
-      "projectPath": "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\Testing\\Testing.csproj",
-      "packagesPath": "C:\\Users\\jasma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\Testing\\obj\\",
+      "projectPath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\Testing\\Testing.csproj",
+      "packagesPath": "C:\\Users\\Sergio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\Testing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jasma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sergio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5649,14 +5649,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj": {
-              "projectPath": "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj"
+            "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj": {
+              "projectPath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj"
             }
           }
         }
