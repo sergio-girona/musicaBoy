@@ -110,5 +110,11 @@ namespace MusicalyAdminApp
                 Inf.SaveClicked += SongInfo_SaveClicked;
             }
         }
+
+        private void btnGenerate_Click(object sender, RoutedEventArgs e)
+        {
+            pdfView pdfViewerWindow = new pdfView();
+            pdfViewerWindow.Show();
+        }
     }
 }
