@@ -4,7 +4,87 @@
     "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\Testing\\Testing.csproj": {}
   },
   "projects": {
+<<<<<<< HEAD
     "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj": {
+=======
+    "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\MusicalyAdminApp\\MusicalyAdminApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\MusicalyAdminApp\\MusicalyAdminApp.csproj",
+        "projectName": "MusicalyAdminApp",
+        "projectPath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\MusicalyAdminApp\\MusicalyAdminApp.csproj",
+        "packagesPath": "C:\\Users\\Sergio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\MusicalyAdminApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sergio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj": {
+                "projectPath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj": {
+>>>>>>> 47dcbb11ba0f9afe48a533bc8930f540deda255f
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj",
@@ -107,8 +187,16 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj": {
                 "projectPath": "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj"
+=======
+              "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\MusicalyAdminApp\\MusicalyAdminApp.csproj": {
+                "projectPath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\MusicalyAdminApp\\MusicalyAdminApp.csproj"
+              },
+              "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj": {
+                "projectPath": "C:\\Users\\Sergio\\Desktop\\B\\musicaBoy\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj"
+>>>>>>> 47dcbb11ba0f9afe48a533bc8930f540deda255f
               }
             }
           }

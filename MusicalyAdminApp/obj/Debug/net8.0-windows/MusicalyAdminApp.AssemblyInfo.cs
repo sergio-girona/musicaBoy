@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MusicalyAdminApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc9207e5e7ca34a9a8ffad70b37f59c78dbe0bc7")]
+>>>>>>> 47dcbb11ba0f9afe48a533bc8930f540deda255f
 [assembly: System.Reflection.AssemblyProductAttribute("MusicalyAdminApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MusicalyAdminApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
