@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MusicalyAdminApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c86f5443b11194472634da5090935883edeb0d7c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MusicalyAdminApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MusicalyAdminApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

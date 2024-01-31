@@ -1,5 +1,5 @@
-﻿using MusicalyAdminApp.API.APISQL;
-using MusicalyAdminApp.API.APISQL.Taules;
+﻿using AdminApp.API.APISQL;
+using AdminApp.API.APISQL.Taules;
 using MusicPlayerLibrary.Certificates;
 using MusicPlayerLibrary.Crypto;
 using MusicPlayerLibrary.GestioPDF;

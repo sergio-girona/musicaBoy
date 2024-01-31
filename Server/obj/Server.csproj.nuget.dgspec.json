@@ -4,14 +4,14 @@
     "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\Server\\Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\MusicalyAdminApp\\MusicalyAdminApp.csproj": {
+    "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\AdminApp\\AdminApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\MusicalyAdminApp\\MusicalyAdminApp.csproj",
-        "projectName": "MusicalyAdminApp",
-        "projectPath": "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\MusicalyAdminApp\\MusicalyAdminApp.csproj",
+        "projectUniqueName": "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\AdminApp\\AdminApp.csproj",
+        "projectName": "AdminApp",
+        "projectPath": "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\AdminApp\\AdminApp.csproj",
         "packagesPath": "C:\\Users\\jasma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\MusicalyAdminApp\\obj\\",
+        "outputPath": "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\AdminApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Syncfusion.PdfViewer.WPF": {
+              "target": "Package",
+              "version": "[24.2.3, )"
             }
           },
           "imports": [
@@ -182,8 +186,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\MusicalyAdminApp\\MusicalyAdminApp.csproj": {
-                "projectPath": "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\MusicalyAdminApp\\MusicalyAdminApp.csproj"
+              "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\AdminApp\\AdminApp.csproj": {
+                "projectPath": "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\AdminApp\\AdminApp.csproj"
               },
               "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj": {
                 "projectPath": "C:\\Users\\jasma\\Dropbox\\PC\\Desktop\\Sergio Sebastaian Girona\\musicaBoy\\MusicPlayerLibrary\\MusicPlayerLibrary.csproj"
