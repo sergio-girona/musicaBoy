@@ -199,6 +199,28 @@ namespace AdminApp.API.APISQL
             }
         }
 
+        public async Task<List<Album>> GetAlbums()
+        {
+            try
+            {
+                string endpoint = "api/Album";
+                string responseJson = await GetAsync(endpoint);
+
+                if (string.IsNullOrEmpty(responseJson))
+                {
+                    return new List<Album>();
+                }
+
+                var albums = JsonConvert.DeserializeObject<List<Album>>(responseJson);
+                return albums;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error during GetAlbums request: {ex.Message}");
+                return new List<Album>();
+            }
+        }
+
 
         public void Dispose()
         {

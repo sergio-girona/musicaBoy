@@ -91,9 +91,6 @@ C:\Users\Sergio\Desktop\ReproductorMusica\Server\obj\Debug\net8.0-windows\Server
 C:\Users\Sergio\Desktop\ReproductorMusica\Server\obj\Debug\net8.0-windows\Server.genruntimeconfig.cache
 C:\Users\Sergio\Desktop\ReproductorMusica\Server\obj\Debug\net8.0-windows\ref\Server.dll
 C:\Users\Sergio\Desktop\ReproductorMusica\Server\bin\Debug\net8.0-windows\Config\config_doc.json
-C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\MusicalyAdminApp.deps.json
-C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\MusicalyAdminApp.runtimeconfig.json
-C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\MusicalyAdminApp.exe
 C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\Server.exe
 C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\Config\config_doc.json
 C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\Server.deps.json
@@ -122,9 +119,7 @@ C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\
 C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
 C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
 C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
-C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\MusicalyAdminApp.dll
 C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\MusicPlayerLibrary.dll
-C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\MusicalyAdminApp.pdb
 C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\MusicPlayerLibrary.pdb
 C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\obj\Debug\net8.0-windows\Server.csproj.AssemblyReference.cache
 C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\obj\Debug\net8.0-windows\Server.GeneratedMSBuildEditorConfig.editorconfig
@@ -138,3 +133,17 @@ C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\obj\
 C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\obj\Debug\net8.0-windows\Server.pdb
 C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\obj\Debug\net8.0-windows\Server.genruntimeconfig.cache
 C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\obj\Debug\net8.0-windows\ref\Server.dll
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\AdminApp.deps.json
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\AdminApp.runtimeconfig.json
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\Pdfium\x64\pdfium.dll
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\Pdfium\x86\pdfium.dll
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\Pdfium\arm64\pdfium.dll
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\AdminApp.exe
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\Syncfusion.Compression.Base.dll
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\Syncfusion.Licensing.dll
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\Syncfusion.Pdf.Base.dll
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\Syncfusion.PdfToImageConverter.Base.dll
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\Syncfusion.PdfViewer.WPF.dll
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\Syncfusion.Shared.WPF.dll
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\AdminApp.dll
+C:\Users\jasma\Dropbox\PC\Desktop\Sergio Sebastaian Girona\musicaBoy\Server\bin\Debug\net8.0-windows\AdminApp.pdb

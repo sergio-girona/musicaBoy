@@ -23,8 +23,8 @@ namespace AdminApp
                 InitializeComponent();
                 apiSql = new Apisql();
                 ShowSongs();
-
-                WindowState = WindowState.Maximized;
+                ShowAlbums();
+            WindowState = WindowState.Maximized;
             }
 
             /// <summary>
@@ -126,12 +126,25 @@ namespace AdminApp
                 }
             }
 
-            /// <summary>
-            /// Button to generate the pdf.
-            /// </summary>
-            /// <param name="sender"></param>
-            /// <param name="e"></param>
-            private void btnGenerate_Click(object sender, RoutedEventArgs e)
+        private async Task ShowAlbums()
+        {
+            try
+            {
+                List<Album> albums = await apiSql.GetAlbums();
+                ListBoxAlbums.ItemsSource = albums;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error getting and displaying albums: {ex.Message}");
+            }
+        }
+
+        /// <summary>
+        /// Button to generate the pdf.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnGenerate_Click(object sender, RoutedEventArgs e)
             {
             PdfView pdfView = new PdfView();
             pdfView.Show();

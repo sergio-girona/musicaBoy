@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MusicalyAdminApp\MusicalyAdminApp.csproj" />
+    <ProjectReference Include="..\AdminApp\AdminApp.csproj" />
     <ProjectReference Include="..\MusicPlayerLibrary\MusicPlayerLibrary.csproj" />
   </ItemGroup>
 
